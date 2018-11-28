@@ -103,6 +103,8 @@
     <Compile Include="Models\Requests\UpdateAuthorization.cs" />
     <Compile Include="Models\Requests\UpdateCustomerDetails.cs" />
     <Compile Include="Models\Requests\UpdateMerchantReferences.cs" />
+    <Compile Include="Models\ShippingMethod.cs" />
+    <Compile Include="Models\ShippingOptions.cs" />
     <Compile Include="OrderManagement\Capture.cs" />
     <Compile Include="OrderManagement\ICapture.cs" />
     <Compile Include="OrderManagement\IOrder.cs" />

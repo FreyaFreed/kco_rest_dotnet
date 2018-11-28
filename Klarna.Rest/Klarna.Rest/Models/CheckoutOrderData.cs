@@ -18,6 +18,7 @@
 // </copyright>
 //-----------------------------------------------------------------------
 #endregion
+
 namespace Klarna.Rest.Models
 {
     using System;
@@ -173,5 +174,11 @@ namespace Klarna.Rest.Models
         /// </summary>
         [JsonProperty("external_checkouts")]
         public IList<ExternalCheckout> ExternalCheckouts { get; set; }
+
+        /// <summary>
+        /// Gets or sets the list of shipping options.
+        /// </summary>
+        [JsonProperty("shipping_options")]
+        public IList<ShippingOptions> ShippingOptions { get; set; }
     }
 }
