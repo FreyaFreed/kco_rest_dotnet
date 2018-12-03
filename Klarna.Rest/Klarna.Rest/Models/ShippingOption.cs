@@ -1,6 +1,6 @@
 ﻿#region Copyright Header
 //-----------------------------------------------------------------------
-// <copyright file="ShippingOptions.cs" company="Klarna AB">
+// <copyright file="ShippingOption.cs" company="Klarna AB">
 //     Copyright 2014 Klarna AB
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -26,7 +26,7 @@ namespace Klarna.Rest.Models
     /// <summary>
     /// The shipping options for the order
     /// </summary>
-    public class ShippingOptions : Model
+    public class ShippingOption : Model
     {
         /// <summary>
         /// Gets or sets the Id
