@@ -40,7 +40,7 @@ namespace Klarna.Rest.Models
                 Formatting.Indented,
                 new JsonSerializerSettings
                 {
-                    NullValueHandling = NullValueHandling.Ignore,
+                    NullValueHandling = NullValueHandling.Include,
                     DefaultValueHandling = DefaultValueHandling.Include,
                     Converters = new List<JsonConverter>()
                     {
