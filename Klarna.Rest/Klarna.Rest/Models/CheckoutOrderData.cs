@@ -179,6 +179,6 @@ namespace Klarna.Rest.Models
         /// Gets or sets the list of shipping options.
         /// </summary>
         [JsonProperty("shipping_options")]
-        public IList<ShippingOptions> ShippingOptions { get; set; }
+        public IList<ShippingOption> ShippingOptions { get; set; }
     }
 }
